@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="myapp.tarunsoft.com.myfirstappstudio.TrainingActiivity">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_refresh"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_menu_share"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_share"/>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/menu_about"/>
+
+    <item android:id="@+id/action_help"
+        android:title="@string/action_help"
+        app:showAsAction="never"/>
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:title="@string/action_check_updates"
+        app:showAsAction="never" />
+</menu>

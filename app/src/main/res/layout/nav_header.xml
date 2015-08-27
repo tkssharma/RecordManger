@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+
+        android:background="@drawable/ic_profile" />
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:text="Record Manager"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>
